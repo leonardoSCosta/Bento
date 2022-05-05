@@ -39,13 +39,13 @@
 
 .darktheme {
   /* Dark Colors  */
-  --accent: #8BE9FD; /* Hover color */
+  --accent: #44475A; /* Hover color */
   --background: #282a36; /* Background color */
-  --cards: #6272a4; /* Cards color */
+  --cards: #44475A; /* Cards color */
 
   /* Fonts Color */
   --fg: #BD93F9; /* Foreground color */
-  --sfg: #2c292e; /* Secondary Foreground color */
+  --sfg: #50FA7B; /* Secondary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
@@ -179,7 +179,7 @@ body {
 }
 
 #day {
-  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 #greetings {
@@ -201,6 +201,12 @@ body {
 
 .weatherDescription p {
   font-size: var(--fg-secondary);
+  margin-left: 15px;
+  color: var(--fg);
+}
+
+.weatherFeel p {
+  font-size: var(--fg-list);
   margin-left: 15px;
   color: var(--fg);
 }

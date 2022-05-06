@@ -29,7 +29,7 @@ const CONFIG = {
     weatherKey: '85e2bc6bf003096c495673c7448e3699', // Write here your API Key
     weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
     weatherUnit: 'C', // 'F', 'C'
-    language: 'pt', // More languages in https://openweathermap.org/current#multi
+    language: 'pt_br', // More languages in https://openweathermap.org/current#multi
 
     trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
     defaultLatitude: '-23.550520',
@@ -53,39 +53,39 @@ const CONFIG = {
     firstButtonsContainer: [
         {
             id: '1',
-            name: 'Github',
-            icon: 'github',
-            link: 'https://github.com/',
+            name: 'Whatsapp',
+            icon: 'message-circle',
+            link: 'https://web.whatsapp.com',
         },
         {
             id: '2',
-            name: 'Mail',
+            name: 'Gmail',
             icon: 'mail',
-            link: 'https://mail.protonmail.com/',
+            link: 'https://mail.google.com/mail/u/0/#inbox',
         },
         {
             id: '3',
-            name: 'Todoist',
-            icon: 'trello',
-            link: 'https://todoist.com',
+            name: 'Uphold',
+            icon: 'bitcoin',
+            link: 'https://wallet.uphold.com/dashboard',
         },
         {
             id: '4',
-            name: 'Calendar',
-            icon: 'calendar',
-            link: 'https://calendar.google.com/calendar/r',
+            name: 'MEI',
+            icon: 'landmark',
+            link: 'http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/emissao',
         },
         {
             id: '5',
-            name: 'Reddit',
-            icon: 'glasses',
-            link: 'https://reddit.com',
+            name: 'Facebook',
+            icon: 'facebook',
+            link: 'https://www.facebook.com',
         },
         {
             id: '6',
-            name: 'Odysee',
-            icon: 'youtube',
-            link: 'https://odysee.com/',
+            name: 'FEI',
+            icon: 'graduation-cap',
+            link: 'https://posgrad.fei.edu.br/',
         },
     ],
 
@@ -135,24 +135,24 @@ const CONFIG = {
     // First Links Container
     firstlistsContainer: [
         {
-            icon: 'music',
+            icon: 'cast',
             id: '1',
             links: [
                 {
-                    name: 'Inspirational',
-                    link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+                    name: 'Twitch',
+                    link: 'https://twitch.tv',
                 },
                 {
-                    name: 'Classic',
-                    link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+                    name: 'Youtube',
+                    link: 'https://www.youtube.com',
                 },
                 {
-                    name: 'Oldies',
-                    link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+                    name: 'Netflix',
+                    link: 'https://www.netflix.com/browse',
                 },
                 {
-                    name: 'Rock',
-                    link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+                    name: 'Prime',
+                    link: 'https://www.primevideo.com',
                 },
             ],
         },
@@ -165,12 +165,12 @@ const CONFIG = {
                     link: 'https://www.linkedin.com',
                 },
                 {
-                    name: 'Dribbble',
-                    link: 'https://www.dribbble.com',
+                    name: 'Github',
+                    link: 'https://www.github.com',
                 },
                 {
-                    name: 'Trello',
-                    link: 'https://www.trello.com',
+                    name: 'Gitlab',
+                    link: 'https://www.gitlab.com',
                 },
                 {
                     name: 'Slack',

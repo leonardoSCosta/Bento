@@ -151,8 +151,8 @@ const CONFIG = {
                     link: 'https://www.netflix.com/browse',
                 },
                 {
-                    name: 'Prime',
-                    link: 'https://www.primevideo.com',
+                    name: 'Star+',
+                    link: 'https://www.starplus.com/pt-br/series/modern-family/6p2yzz9mh8Kp',
                 },
             ],
         },
